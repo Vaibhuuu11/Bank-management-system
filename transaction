@@ -1,0 +1,7 @@
+class Transaction {
+public:
+    string type; // Type of transaction
+    double amount; // Amount transacted
+
+    Transaction(const string &t, double a) : type(t), amount(a) {}
+};
